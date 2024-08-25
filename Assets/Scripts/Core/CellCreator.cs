@@ -128,7 +128,6 @@ namespace Core
         private void AddNearbyCell(CellConfig cellConfig, int rowIndex, int columnIndex)
         {
             cellConfig.NearbyCellsConfig.Add(_cellsConfig[rowIndex, columnIndex]);
-            Debug.Log($"{cellConfig.NumberCell} has nearby {rowIndex};{columnIndex}");
         }
         
         private void CreateCells()
